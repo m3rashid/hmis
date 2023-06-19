@@ -1,4 +1,4 @@
 packages:
   - 'hmis-clients'
   - 'hmis-node-server'
-  - './@hmis/**'
+  - './hmis-packages/**'

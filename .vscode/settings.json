@@ -1,0 +1,27 @@
+{
+  "cSpell.words": [
+    "antd",
+    "Appstore",
+    "dompurify",
+    "fullscreen",
+    "Grammarly",
+    "hocs",
+    "mantine",
+    "Popconfirm",
+    "precommit",
+    "RJSF",
+    "Sider",
+    "tanstack",
+    "Usergroup",
+    "package-lock.json",
+    "node_modules",
+    "vscode-extension",
+    ".git/objects",
+    ".vscode",
+    ".vscode-insiders",
+    "src/initialDbMigration/dummy/inventory.ts",
+    "yarn-error.log",
+    "yarn.lock",
+    "datetime"
+  ]
+}

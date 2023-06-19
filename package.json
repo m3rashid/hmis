@@ -1,0 +1,9 @@
+{
+  "name": "hmis",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": "https://github.com/m3rashid/hmis.git",
+  "author": "m3rashid <m3rashid.hussain@gmail.com>",
+  "main": "index.js",
+  "scripts": {}
+}

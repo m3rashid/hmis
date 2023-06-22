@@ -367,6 +367,9 @@ importers:
       solid-js:
         specifier: ^1.7.6
         version: 1.7.6
+      solid-transition-group:
+        specifier: ^0.2.2
+        version: 0.2.2(solid-js@1.7.6)
     devDependencies:
       '@tailwindcss/forms':
         specifier: ^0.5.3
@@ -2586,7 +2589,6 @@ packages:
     dependencies:
       '@solid-primitives/utils': 6.2.0(solid-js@1.7.6)
       solid-js: 1.7.6
-    dev: true
 
   /@solid-primitives/resize-observer@2.0.18(solid-js@1.7.6):
     resolution: {integrity: sha512-k4jTqa2hQc1HBLGUUSy69ziVJF2xlBzglUp2Saeor7RrZiWudODGyoUMdNAY+PN3iH4zyH4eEa/Fs+9kIrREig==}
@@ -2645,13 +2647,20 @@ packages:
       solid-js: 1.7.6
     dev: true
 
+  /@solid-primitives/transition-group@1.0.2(solid-js@1.7.6):
+    resolution: {integrity: sha512-+o3J7TnU0/Sok+LKA0z0wvhim88dpd2eFBk8/05adE6wVypVlME8sKqTMO+xRv8HoT4Kq3sczmvwV07FKg2n+g==}
+    peerDependencies:
+      solid-js: ^1.6.12
+    dependencies:
+      solid-js: 1.7.6
+    dev: false
+
   /@solid-primitives/utils@6.2.0(solid-js@1.7.6):
     resolution: {integrity: sha512-T62WlLwKkbmicsw/xpwMQyv9MmZRSaVyutXfS5icc9v0cb8qGMUxRxr5LVvZHYQCZ9DEFboZB0r711xsbVBbeA==}
     peerDependencies:
       solid-js: ^1.6.12
     dependencies:
       solid-js: 1.7.6
-    dev: true
 
   /@solidjs/router@0.8.2(solid-js@1.7.6):
     resolution: {integrity: sha512-gUKW+LZqxtX6y/Aw6JKyy4gQ9E7dLqp513oB9pSYJR1HM5c56Pf7eijzyXX+b3WuXig18Cxqah4tMtF0YGu80w==}
@@ -7624,6 +7633,16 @@ packages:
       '@babel/types': 7.22.5
       solid-js: 1.7.6
     dev: true
+
+  /solid-transition-group@0.2.2(solid-js@1.7.6):
+    resolution: {integrity: sha512-6nB90UM2PB6VsIo/UCkmZmlIJb9mnmP7QPGrePqQJWtpUiRs5PbhkB8fvdyv9g/RPHWYpdJhQgxL6n++WmTt5A==}
+    peerDependencies:
+      solid-js: ^1.6.12
+    dependencies:
+      '@solid-primitives/refs': 1.0.4(solid-js@1.7.6)
+      '@solid-primitives/transition-group': 1.0.2(solid-js@1.7.6)
+      solid-js: 1.7.6
+    dev: false
 
   /source-map-js@1.0.2:
     resolution: {integrity: sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==}

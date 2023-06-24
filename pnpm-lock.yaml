@@ -70,6 +70,9 @@ importers:
       socket.io-client:
         specifier: ^4.6.2
         version: 4.6.2
+      zod:
+        specifier: ^3.21.4
+        version: 3.21.4
     devDependencies:
       '@tanstack/eslint-plugin-query':
         specifier: ^4.29.9

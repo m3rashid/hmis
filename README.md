@@ -1,3 +1,3 @@
 ## HMIS
 
-Monorepo setup for Hospital Management and Informatics systems
+Monorepo setup for HMIS

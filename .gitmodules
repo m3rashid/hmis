@@ -1,27 +1,15 @@
 [submodule "hmis-clients"]
 	path = hmis-clients
 	url = https://github.com/m3rashid/hmis-clients.git
-[submodule "hmis-node-server"]
-	path = hmis-node-server
-	url = https://github.com/m3rashid/hmis-node-server.git
 [submodule "hmis-go-server"]
 	path = hmis-go-server
 	url = https://github.com/m3rashid/hmis-go-server.git
-[submodule "hmis-packages"]
-	path = hmis-packages
-	url = https://github.com/m3rashid/hmis-packages.git
-[submodule "hmis-web"]
-	path = hmis-web
-	url = https://github.com/m3rashid/hmis-web.git
-[submodule "hmis-ws"]
-	path = hmis-ws
-	url = https://github.com/m3rashid/hmis-ws.git
-[submodule "hmis-docs"]
-	path = hmis-docs
-	url = https://github.com/m3rashid/hmis-docs.git
-[submodule "hmis-rn-mobile"]
-	path = hmis-rn-mobile
-	url = https://github.com/m3rashid/hmis-rn-mobile.git
+[submodule "hmis-node-server"]
+	path = hmis-node-server
+	url = https://github.com/m3rashid/hmis-node-server.git
 [submodule "hmis-old-archive"]
 	path = hmis-old-archive
 	url = https://github.com/m3rashid/hmis-old-archive.git
+[submodule "hmis-packages"]
+	path = hmis-packages
+	url = https://github.com/m3rashid/hmis-packages.git
